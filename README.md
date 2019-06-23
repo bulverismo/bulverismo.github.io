@@ -66,4 +66,6 @@ git push -u origin master
 
 Se tudo deu certo você fez o seu primeiro commit
 
+Algumas dicas quentes podem ser encontradas em https://terminalroot.com.br/git/
+
 bulverizando a galáxia
