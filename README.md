@@ -1,7 +1,7 @@
 # bulverismo.github.io
 créditos da pelo efeito matrix em bulverismo.github.io : https://github.com/emilyxxie/green_rain
 
-#Dicas para iniciante que nem eu
+Dicas para iniciante que nem eu
 que querem fazer um simples commit via linha de comando apartir do linux
 
 Para instalar o git no debian/ubuntu/mint
