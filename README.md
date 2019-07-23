@@ -12,9 +12,9 @@ crie uma conta
 
 rode estes comandos com as informações da conta
 
-git config –global user.name “seu Nome” 
+git config --global user.name “seu Nome” 
 
-git config –global user.email “seu-email@seu-dominio.com”
+git config --global user.email “seu-email@seu-dominio.com”
 
 logue no seu github e va na lateral onde mostra o seu perfil e va em setings e após va em SSH and GPG keys
 
@@ -44,28 +44,30 @@ va ao linux e crie uma pasta com o mesmo nome do repository
 
 mkdir nome-do-repositorio
 
+para entrar no diretorioi faça -> cd nome-do-repositorio
+
 execute estes passos:
 
 este comando somente cria um arquivo para o teste
 echo "# repoTeste" >> README.md
 
 este comando inicializa o diretorio
-git init
+sudo git init
 
 este comando adiciona o arquivo que tu criou para poder entrar no proximo commit
-git add README.md
+sudo git add README.md
 
 este comando faz o commit dando um nome a ele
-git commit -m "first commit"
+sudo git commit -m "first commit"
 
-este comando eu nao sei o que faz 
-git remote add origin https://github.com/bulverismo/repoTeste.git
+este comando aponta o repositorio remoto
+sudo git remote add origin https://github.com/bulverismo/bulverismo.github.io.git
 
 este comando faz o upload em si para dentro da plataforma
-git push -u origin master
+sudo git push -u origin master
 
 Se tudo deu certo você fez o seu primeiro commit
 
-Algumas dicas quentes podem ser encontradas em https://terminalroot.com.br/git/
+Algumas dicas quentes foram encontradas em https://terminalroot.com.br/git/
 
 bulverizando a galáxia
