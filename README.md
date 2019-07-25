@@ -4,9 +4,17 @@ créditos da pelo efeito matrix em bulverismo.github.io : https://github.com/emi
 Dicas para iniciante que nem eu
 que querem fazer um simples commit via linha de comando apartir do linux
 
+digitar os comandos e apertar enter na sequencia
+
+
+para entrar no modo root digite
+su 
+e na sequencia digite a senha do user root
+
+
 Para instalar o git no debian/ubuntu/mint
 
-sudo apt install git
+apt install git
 
 crie uma conta
 
@@ -52,19 +60,19 @@ este comando somente cria um arquivo para o teste
 echo "# repoTeste" >> README.md
 
 este comando inicializa o diretorio
-sudo git init
+git init
 
 este comando adiciona o arquivo que tu criou para poder entrar no proximo commit
-sudo git add README.md
+git add README.md
 
 este comando faz o commit dando um nome a ele
-sudo git commit -m "first commit"
+git commit -m "first commit"
 
 este comando aponta o repositorio remoto
-sudo git remote add origin https://github.com/bulverismo/bulverismo.github.io.git
+git remote add origin https://github.com/bulverismo/bulverismo.github.io.git
 
 este comando faz o upload em si para dentro da plataforma
-sudo git push -u origin master
+git push -u origin master
 
 Se tudo deu certo você fez o seu primeiro commit
 
